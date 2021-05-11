@@ -1,5 +1,5 @@
 # Minesweeper
-Defines a context free grammar for manipulating a minesweeper board and an asscii art UI for live playing of the game inside the smlnj repl. 
+Defines a context free grammar for manipulating a minesweeper board and an ascii art UI for live playing of the game inside the smlnj repl. 
 
 1. Open minesweeper.sml in the smlnj repl
 2. Type `evaluate "";` followed by a string which will contain the command you would like to enforce on the minesweeper board
