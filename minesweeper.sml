@@ -56,7 +56,7 @@ fun makeBoard(seed, n) =  let
   fun gameOver(win, (b, (x, y))) = let
                                       val revealedBoard = List.map (fn row => List.map (fn (_, v) => (Revealed, v)) row) b
                                    in 
-                                      if win then let val len = List.length b val () = print("congradulations, you found all the bombs! The total board is: \n") val () = printBoard(revealedBoard, (len, len)) in () end
+                                      if win then let val len = List.length b val () = print("congratulations, you found all the bombs! The total board is: \n") val () = printBoard(revealedBoard, (len, len)) in () end
                                       else let val () = print("you revelead a bomb :(,\n") val () = printBoard(revealedBoard, (List.length b, List.length b)) in () end
                                    end
 
