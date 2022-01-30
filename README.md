@@ -10,4 +10,4 @@ Defines a context free grammar for manipulating a minesweeper board and an ascii
   - `r`, reveal the value of the square you are currently on
   - `m`, mark the current square as a bomb
 
-Tip: You can do many commands at once. For example, "evaluate gdrgs" would go right, reveal the square, and then go down. 
+Tip: You can do many commands at once. For example, `evaluate "gdrgs"` would go right, reveal the square, and then go down. 
